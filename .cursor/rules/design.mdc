@@ -1,0 +1,18 @@
+---
+description: Mandatory human-designed visual system and anti-AI-slop rules
+globs:
+  - "app/**/*.{ts,tsx,css,scss}"
+  - "components/**/*.{ts,tsx,css,scss}"
+  - "src/**/*.{ts,tsx,css,scss}"
+alwaysApply: true
+---
+
+For any user-facing UI work, read and follow:
+- @docs/anti-ai-slop.md
+- @docs/brand-direction.md
+- @docs/design-system.md
+- @AGENTS.md
+
+Never treat a framework/component-library default as finished design.
+
+Before finalizing UI work, explicitly audit the result against the anti-AI-slop checklist and fix violations.
