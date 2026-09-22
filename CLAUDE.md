@@ -13,6 +13,10 @@ Do not default to generic AI/SaaS aesthetics. Do not introduce untouched shadcn 
 
 Before completing visual work, perform the anti-AI-slop audit and repair anything that feels template-derived or transferable to an unrelated brand.
 
+## Starting a new website project
+
+Follow `prompts/new-website-project.md`. It is the canonical intake and build workflow for any new site — context, business and conversion strategy, research, positioning, art direction, architecture, content, build plan, implementation, QA and final review. It is not duplicated here.
+
 ## Skills
 
 This repository ships its own skills in `.claude/skills/`. They are the *procedures*; the documents above remain the *rules*.

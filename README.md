@@ -16,6 +16,17 @@ Recommended sequence:
 
 Do not start by asking an agent to "make a modern premium website". Define the brand first.
 
+## Starting a new website
+
+```
+Use prompts/new-website-project.md.
+
+Project:
+[business / context]
+```
+
+`prompts/new-website-project.md` is the canonical intake workflow: context and strategy first, art direction next, code last.
+
 ## Claude Code skills
 
 Claude gets the same standard as a set of procedures in `.claude/skills/`:
