@@ -31,6 +31,9 @@ Do not introduce these patterns automatically:
 - hover states that merely reduce opacity
 - buzzword-heavy AI copy
 - em-dash-heavy prose
+- floating blobs, orbs, and abstract background shapes
+- every block centered, with no alignment variation down the page
+- SaaS/startup layout conventions applied to a business they do not fit
 
 These are not absolute bans. They require a clear brand or usability reason.
 

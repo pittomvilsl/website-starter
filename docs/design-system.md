@@ -34,6 +34,19 @@ Use a consistent 4px-based scale, favoring:
 
 Prefer repeated values over arbitrary one-offs.
 
+## Layout, containers and grids
+
+Define:
+- the maximum content width
+- the reading measure for long-form text, which is narrower than the container
+- horizontal gutters at each breakpoint
+- the base grid, and which sections deliberately break out of it
+- which elements are allowed to run full-bleed
+
+Section padding should vary with the weight of a section rather than being one constant repeated down the page.
+
+Choose breakpoints from where this layout actually breaks, not from a default device list.
+
 ## Radius
 
 Define a small, deliberate radius system.

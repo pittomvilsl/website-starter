@@ -16,6 +16,18 @@ Recommended sequence:
 
 Do not start by asking an agent to "make a modern premium website". Define the brand first.
 
+## Claude Code skills
+
+Claude gets the same standard as a set of procedures in `.claude/skills/`:
+
+`premium-web-design` (art direction) → `frontend-design` (implementation) → `nextjs-project-standards` (project conventions) → `visual-qa` (inspect the rendered page) → `accessibility-audit` → `performance-audit`
+
+`nextjs-project-standards` holds our own conventions and architectural defaults. Current framework and API knowledge stays with the Vercel plugin's `vercel:nextjs` skill — the two are complementary, and the names are kept distinct on purpose.
+
+The skills describe *how to work*. The rules stay in `docs/`. `AGENTS.md` records which file is canonical for what, so the same rule does not drift into several versions.
+
+This starter standardises quality, not appearance. Every project decides its own art direction before any UI is built — sites built from it should not look like siblings.
+
 ## GitHub template usage
 
 Once this repository is marked as a GitHub template repository, start new projects with:
